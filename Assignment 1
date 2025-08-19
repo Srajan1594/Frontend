@@ -1,0 +1,88 @@
+<!--🎯 Objective
+Build a CV-style personal webpage using HTML and inline CSS styling, making sure to include a table.
+-->
+<!--🔹 Part 1: Basic Structure
+Task 1: Create an HTML file with basic structure (<!DOCTYPE html>, <html>, <head>, <title>, <body>).
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Create an HTML CV-style webpage
+        </title>
+    </head>
+    <body>
+        <!--Task 2: Add your name and tagline using <h1> and <h3>.-->
+        <h1 ><b><u>
+            Hi this is my first assignment and my name is Srajan Narsingh
+        </u></b></h1>
+        <h3>
+            Todays tagline is "Jo tum chaahte ho, vo tumhe kabhi milta nahi. Aur jo tumhe milta hai, vo asal mein tumhara hota nahi.” (What you desire, you will not get; and what you get, will not truly be yours)
+        </h3>
+        <!--Task 3: Insert a profile picture (<img>).-->
+        <img src="https://multishoring.com/wp-content/uploads/2024/04/what-is-front-end-development.png" alt="Front-end development is fun" width="600" height="400">
+        <!--Task 4: Add contact info (email, phone, LinkedIn) using <ul> or <dl>-->
+        <ul>
+            <li>Task 1 is done</li>
+            <li>Task 2 is done</li>
+        </ul>
+        <dl>
+            <dt>email</dt>
+            <dd>abcdef@gmail.com</dd>
+             
+            <dt>phone</dt>
+            <dd>42132*****</dd>
+        </dl>
+        <!--Task 5: Write a short intro with <p>, highlight text with <b>, <i>, <u>.-->
+        <p>My name is <b>Srajan Narsingh</b>. I am currently pursuing <u>B.Tech in Computer Science</u> at <i>GLA University</i>.</p>
+        <!--Task 6: Create a table with inline styling.
+        Use <table> with border and cell padding.
+        First row should be <th> headings: Year, Degree, Institute.
+        Next rows: your education details.-->
+        <table style="border: 1px solid black; border-collapse: collapse; width:80%;padding: 8px;" >
+            <tr style="background-color: grey;">
+                <th style="border:1px solid black;padding:1px;">Year</th>
+                <th style="border:1px solid black;padding:1px;">Degree</th>
+                <th style="border:1px solid black;padding:1px;">Institute</th>
+            </tr>
+            <tr style="background-color: cyan;">
+                <td style="border:1px solid black;padding:1px;">4th</td>
+                <td style="border:1px solid black;padding:1px;">B.Tech (Computer Science)</td>
+                <td style="border:1px solid black;padding:1px;">IIT Chomuha</td>
+            </tr>
+        </table>
+        <!--Task 7: Add skills using <ul> or <ol>.
+        (Optional: Use <progress> or <meter> for skill level)-->
+        <h2>Skill level</h2>
+        <ul>
+            <li>HTML<meter value="90" max="100"></meter></li>
+            <li>CSS<progress value="80" max="100"></progress></li>
+            <li>C++<meter value="50" max="100"></meter></li>
+            <li>C<progress value="60" max="100"></progress></li>
+        </ul>
+        <ol>
+            <li>Problem Solving<meter value="90" max="100"></meter></li>
+            <li>Communication<progress value="70" max="100"></progress></li>
+            <li>Teamwork <meter value="60" max="100"></meter></li>
+            <li>Fun <progress value="100" max="100"></progress></li>
+        </ol>
+        <!--Task 8: Add projects with <h4> and <p>, wrap inside <div> with inline style.-->
+        <div style="border: 1px solid black; padding: 10px; margin: 10px; background-color: white;">
+        <h4>Project 1:Basic of HTML</h4>
+        <p>HTML (HyperText Markup Language) is used to structure content on the web. It tells the browser what parts are headings, paragraphs, images, links, lists, etc.</p>
+        </div>
+        <!--Task 9: Add hobbies in a list with emojis or icons.-->
+        <h3>My Hobbies</h3>
+        <ul>
+            <li>🎮 Playing Video Games</li>
+            <li>📚 Reading Books</li>
+            <li>🎵 Listening to Music</li>
+            <li>🏃‍♂️ Running</li>
+            <li>🍳 Cooking</li>
+        </ul>
+        <!--Task 10: Add a footer with copyright (&copy; 2025 Your Name).-->
+        <footer style="text-align: center; padding: 10px; background-color: white;">
+            &copy; 2025 Srajan Narsingh
+        </footer>
+    </body>
+</html>
